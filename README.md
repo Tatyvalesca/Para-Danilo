@@ -1,7 +1,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title> O melhor marido do mundo!</title>
+  <title>O melhor marido do mundo!</title>
   <style>
     body {
       background-color: #1e1e1e;
@@ -21,7 +21,7 @@
       box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
     }
     .btn {
-      background-color: #00BFFF;
+      background-color: #ff69b4;
       color: #fff;
       border: none;
       padding: 12px 24px;
@@ -32,13 +32,13 @@
       transition: background-color 0.3s ease;
     }
     .btn:hover {
-      background-color: #00BFFF;
+      background-color: #ff1493;
     }
     .hidden-message {
       display: none;
       margin-top: 30px;
       font-size: 18px;
-      color: #00BFFF;
+      color: #f0a;
       animation: fadeIn 1s ease-in-out forwards;
     }
     @keyframes fadeIn {
@@ -70,5 +70,14 @@ print(meu_amor.declarar())
 
   <div class="hidden-message" id="mensagem">
     Meu amor por você é como um loop infinito: nunca para, nunca falha.  
-    Você é o código mais precioso da minha vida. Te amo mil trilhões de milhões!
-  
+    Você é o código mais precioso da minha vida.Te amo mil trilhões de milhões seu chato!
+  </div>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
