@@ -1,7 +1,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>O melhor marido do mundo!</title>
+  <title>Para Danilo</title>
   <style>
     body {
       background-color: #1e1e1e;
@@ -18,10 +18,11 @@
       margin: 0 auto 20px;
       text-align: left;
       white-space: pre-wrap;
-      box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
+      box-shadow: 0 0 15px rgba(100, 149, 237, 0.3);
+      color: #87cefa;
     }
     .btn {
-      background-color: #ff69b4;
+      background-color: #4682b4;
       color: #fff;
       border: none;
       padding: 12px 24px;
@@ -32,13 +33,13 @@
       transition: background-color 0.3s ease;
     }
     .btn:hover {
-      background-color: #ff1493;
+      background-color: #4169e1;
     }
     .hidden-message {
       display: none;
       margin-top: 30px;
       font-size: 18px;
-      color: #f0a;
+      color: #00bfff;
       animation: fadeIn 1s ease-in-out forwards;
     }
     @keyframes fadeIn {
@@ -70,8 +71,12 @@ print(meu_amor.declarar())
 
   <div class="hidden-message" id="mensagem">
     Meu amor por você é como um loop infinito: nunca para, nunca falha.  
-    Você é o código mais precioso da minha vida.Te amo mil trilhões de milhões seu chato!
+    Você é o código mais precioso da minha vida. Te amo mil trilhões de milhões!
   </div>
+
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2023/03/20/audio_5a3aa05f7b.mp3" type="audio/mpeg">
+  </audio>
 
   <script>
     function mostrarMensagem() {
@@ -81,3 +86,4 @@ print(meu_amor.declarar())
 
 </body>
 </html>
+"""
