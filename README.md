@@ -38,7 +38,7 @@
       display: none;
       margin-top: 30px;
       font-size: 18px;
-      color: #f0a;
+      color: #008080;
       animation: fadeIn 1s ease-in-out forwards;
     }
     @keyframes fadeIn {
