@@ -83,8 +83,3 @@ print(meu_amor.declarar())
 </html>
 """
 
-# Save to HTML file
-output_path = Path("/mnt/data/para_danilo.html")
-output_path.write_text(html_content, encoding="utf-8")
-
-output_path.name
