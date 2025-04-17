@@ -74,15 +74,17 @@ print(meu_amor.declarar())
     Você é o código mais precioso da minha vida. Te amo mil trilhões de milhões!
   </div>
 
-  <audio autoplay loop>
-    <source src="https://cdn.pixabay.com/audio/2023/03/20/audio_5a3aa05f7b.mp3" type="audio/mpeg">
-  </audio>
+  <audio id="musicaFundo" loop>
+  <source src="https://cdn.pixabay.com/audio/2023/03/20/audio_5a3aa05f7b.mp3" type="audio/mpeg">
+  Seu navegador não suporta áudio.
+</audio>
 
-  <script>
-    function mostrarMensagem() {
-      document.getElementById("mensagem").style.display = "block";
-    }
-  </script>
+<script>
+  function mostrarMensagem() {
+    document.getElementById("mensagem").style.display = "block";
+    document.getElementById("musicaFundo").play();
+  }
+</script>
 
 </body>
 </html>
