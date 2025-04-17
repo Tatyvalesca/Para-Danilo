@@ -1,7 +1,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Para Danilo</title>
+  <title> O melhor marido do mundo!</title>
   <style>
     body {
       background-color: #1e1e1e;
@@ -11,7 +11,7 @@
       text-align: center;
     }
     .code-box {
-      background-color: #252526 ;
+      background-color: #252526;
       padding: 20px;
       border-radius: 12px;
       max-width: 600px;
@@ -21,8 +21,8 @@
       box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
     }
     .btn {
-      background-color: #00bfff;
-      color: #00bfff;
+      background-color: #00BFFF;
+      color: #fff;
       border: none;
       padding: 12px 24px;
       font-size: 16px;
@@ -32,13 +32,13 @@
       transition: background-color 0.3s ease;
     }
     .btn:hover {
-      background-color: #00bfff;
+      background-color: #00BFFF;
     }
     .hidden-message {
       display: none;
       margin-top: 30px;
       font-size: 18px;
-      color:  #0000FF;
+      color: #00BFFF;
       animation: fadeIn 1s ease-in-out forwards;
     }
     @keyframes fadeIn {
@@ -71,15 +71,4 @@ print(meu_amor.declarar())
   <div class="hidden-message" id="mensagem">
     Meu amor por você é como um loop infinito: nunca para, nunca falha.  
     Você é o código mais precioso da minha vida. Te amo mil trilhões de milhões!
-  </div>
-
-  <script>
-    function mostrarMensagem() {
-      document.getElementById("mensagem").style.display = "block";
-    }
-  </script>
-
-</body>
-</html>
-"""
-
+  
