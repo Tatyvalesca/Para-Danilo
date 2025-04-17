@@ -71,8 +71,8 @@ print(meu_amor.declarar())
   <button class="btn" onclick="mostrarMensagem()">Clique aqui</button>
 
   <div class="hidden-message" id="mensagem">
-    Danilo, meu amor por você é como um loop infinito: nunca para, nunca falha.  
-    Você é o código mais precioso da minha vida.
+    Meu amor por você é como um loop infinito: nunca para, nunca falha.  
+    Você é o código mais precioso da minha vida. Te amo mil trilhões de milhões!
   </div>
 
   <script>
