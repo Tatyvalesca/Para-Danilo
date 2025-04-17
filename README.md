@@ -11,7 +11,7 @@
       text-align: center;
     }
     .code-box {
-      background-color: #00bfff;
+      background-color: #252526 ;
       padding: 20px;
       border-radius: 12px;
       max-width: 600px;
@@ -22,7 +22,7 @@
     }
     .btn {
       background-color: #00bfff;
-      color: #fff;
+      color: #00bfff;
       border: none;
       padding: 12px 24px;
       font-size: 16px;
