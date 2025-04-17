@@ -11,7 +11,7 @@
       text-align: center;
     }
     .code-box {
-      background-color: #252526;
+      background-color: #00bfff;
       padding: 20px;
       border-radius: 12px;
       max-width: 600px;
@@ -21,7 +21,7 @@
       box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
     }
     .btn {
-      background-color: #0000FF;
+      background-color: #00bfff;
       color: #fff;
       border: none;
       padding: 12px 24px;
@@ -32,7 +32,7 @@
       transition: background-color 0.3s ease;
     }
     .btn:hover {
-      background-color: #0000FF;
+      background-color: #00bfff;
     }
     .hidden-message {
       display: none;
