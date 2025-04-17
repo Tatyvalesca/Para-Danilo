@@ -1,7 +1,4 @@
 from pathlib import Path
-
-# HTML content for the romantic page
-html_content = """
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
