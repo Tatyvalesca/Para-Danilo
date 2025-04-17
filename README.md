@@ -21,7 +21,7 @@
       box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
     }
     .btn {
-      background-color: #ff69b4;
+      background-color: #0000FF;
       color: #fff;
       border: none;
       padding: 12px 24px;
@@ -32,13 +32,13 @@
       transition: background-color 0.3s ease;
     }
     .btn:hover {
-      background-color: #ff1493;
+      background-color: #0000FF;
     }
     .hidden-message {
       display: none;
       margin-top: 30px;
       font-size: 18px;
-      color: #008080;
+      color:  #0000FF;
       animation: fadeIn 1s ease-in-out forwards;
     }
     @keyframes fadeIn {
